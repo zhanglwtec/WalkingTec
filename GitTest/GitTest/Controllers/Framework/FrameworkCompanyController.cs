@@ -14,7 +14,7 @@ namespace GitTest.Controllers.Framework
         [ActionDescription("Search")]
         public ActionResult Index()
         {
-            var vm = CreateVM<FrameworkCompanyListVM>();
+             var vm = CreateVM<FrameworkCompanyListVM>();
             return PartialView(vm);
         }
 
